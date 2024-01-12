@@ -271,7 +271,8 @@ canvas.scene--full {
   color: violet;
 }
 
-a {
+a,
+a:visited {
   color: violet;
 }
 
