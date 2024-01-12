@@ -244,7 +244,7 @@ canvas.scene--full {
   z-index: -20;
   position: absolute;
   top: 0;
-  opacity: 0.3;
+  opacity: 0.45;
 }
 
 .menu {

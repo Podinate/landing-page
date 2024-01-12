@@ -68,8 +68,7 @@ function render(a) {
 function onResize() {
     canvas.style.width = '';
     canvas.style.height = '';
-    width = screen.innerWidth;
-    height = screen.innerHeight;
+
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
     renderer.setSize(width, height);
