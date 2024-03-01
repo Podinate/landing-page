@@ -3,7 +3,8 @@ module.exports = {
   serverless: true,
   output: "export",
   images: {
-    loader: "imgix"
+    loader: "akamai",
+    path: "",
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
