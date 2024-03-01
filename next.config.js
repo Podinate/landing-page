@@ -1,9 +1,10 @@
 module.exports = {
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
   target: "serverless",
+  serverless: true,
+  output: "export",
+  images: {
+    loader: "imgix"
+  },
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback.fs = false;
