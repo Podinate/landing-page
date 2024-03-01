@@ -31,7 +31,7 @@ export default function Footer() {
                       className="w-8"
                     />
                   </span>
-                  <span>Nextly</span>
+                  <span>Podinate</span>
                 </a>
               </Link>
             </div>
